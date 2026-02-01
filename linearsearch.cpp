@@ -25,7 +25,7 @@ int main (){
 
     if(result >= 0)
     {
-        cout << "The number" << a[result] << "Was found at the element with Index" << result << endl;
+        cout << "The number " << a[result] << " Was found at the element with Index " << result << endl;
 
     }
     else
