@@ -135,12 +135,23 @@ using namespace std;
 //     return result;
 // }
 
-// int main()
-// {
+int main()
+ {
 // // write c++ code here
 // int m= 10;
 // int result = vanzhere(m);
 // cout << result << endl; 
+
+// Given an integer n. Your task is to calculate the sum of all natural numbers from 1 up to n (inclusive).If n is 0, the sum should be 0.
+int n;
+cin >> n;
+
+int sum = 0;
+for (int i =0; i<=n ; i++){
+    sum+=i;
+}
+cout << sum;
+
     return 0;
 }
 
