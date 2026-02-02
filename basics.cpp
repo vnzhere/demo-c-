@@ -1,7 +1,9 @@
+// basics : conditionals ,loops etc
+
 #include <iostream>
 using namespace std;
 
-int main() {
+// int main() {
 //     (odd even)
     // int num;
     // cout << "Enter a number: ";
@@ -105,21 +107,44 @@ int main() {
     // cout << "The sum is: " << sum << endl;
     // cout << "Largest = " << largest << endl;
 
+
+
     // takes a no and prints multiplication table of n for even results.
-int n;
-cout << "Enter value of n: " << endl;
-cin >>n;
-int i =2;
-    cout << "table of n: " << endl;
-do {
-    cout << n << "x" << i << "=" << n*i << endl;
-    i+=2;
+// int n;
+// cout << "Enter value of n: " << endl;
+// cin >>n;
+// int i =2;
+//     cout << "table of n: " << endl;
+// do {
+//     cout << n << "x" << i << "=" << n*i << endl;
+//     i+=2;
 
+// }
+// while (i<=10);
+
+
+
+// functions: input given ---- output achieved
+// return type/ function name/ input type
+
+// return type fn name(input is written with name)
+// int vanzhere(int n)
+// {
+//     //body
+//     int result = 2*n;
+//     return result;
+// }
+
+// int main()
+// {
+// // write c++ code here
+// int m= 10;
+// int result = vanzhere(m);
+// cout << result << endl; 
+    return 0;
 }
-while (i<=10);
+
+//      return 0;
 
 
-     return 0;
-
-
-}
+// }
