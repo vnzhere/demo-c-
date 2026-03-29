@@ -37,6 +37,10 @@ void print4(int n){
     }
 
 }
+
+void print5(int n){
+    
+}
 int main(){
     int t;
     cin >> t;
