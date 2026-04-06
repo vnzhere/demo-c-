@@ -120,4 +120,37 @@ class Circle extends shape{
 }
 
 
+// Interface
+interface Animal{
+    void sound();
+}
+class cat implements Animal{
+    public void sound(){
+        System.out.println("Meow")
+    }
+}
+
+// Exception Handling
+try{
+    int x =10 /0;
+}catch (exception e){
+    System.out.println(e);
+}finally {
+    System.out.println("Done");
+}
+
+// Java Collections Framework
+1. lists--ordered, allows duplicates
+
+import java.util.*;
+list<Integer> list = new ArrayList<>();
+list.add(10);
+list.add(20);
+list.get(0);
+list.remove(1);
+
+2. Linkedlist
+List<Integer> List = new LinkedList<>();
+list.add(1);
+list.addFirst(0);
 
