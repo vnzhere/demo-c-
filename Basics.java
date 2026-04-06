@@ -155,7 +155,7 @@ list.add(1);
 list.addFirst(0);
 
 
-3. Set(Unique elements)
+// Set(Unique elements)
 a) Hashset
 Set<Integer> set = new Hashset<>();
 set.add(10);
@@ -165,7 +165,7 @@ Set<Integer> set= new TreeSet<>();
 set.add(5);
 set.add(1);
 
-4. Map(Key-value)
+// Map(Key-value)
 Map<String Integer> map = new HashMap<>();
 map.put("A", 1);
 map.put("B", 2);
@@ -177,3 +177,10 @@ map.containsKey("B");
 Map<Integer, String> map = new TreeMap<>();
 map.put(2, "B");
 map.put(1, "A");
+
+// Iterations over Collections
+for(int x : list){}
+
+for(Map.Entry <String, Integer> e: map.entrySet()){
+    system.out.println(e.getKey() + " "+ e.getValue());
+}
