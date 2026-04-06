@@ -74,4 +74,35 @@ Car c= new Car();
 c.name= "Range Rover";
 c.drive();
 
+// Encapsulation
+class Person{
+    private int age;
+
+    publiv void setAge(int age){
+        this.age=age;
+    }
+    public int getAge(){
+        return age;
+    }
+}
+
+// Inheritance
+class Animal{
+    void sound(){}
+}
+class Dog extends Animal{
+    void sound(){
+        System.out.println("Bark");
+    }
+}
+
+// Polymorphism
+1. method overloading
+int add(int a ,int b)
+{return a+b};
+double add(double a, double b)
+{return a+b};
+
+2. method overriding
+
 
